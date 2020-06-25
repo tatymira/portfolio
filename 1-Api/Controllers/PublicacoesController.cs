@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PortfolioRest.Domain;
-using PortfolioRest.Interface;
+﻿using _3_Domain.Class;
+using _3_Domain.Interface;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace PortfolioRest.Controller
+namespace _1_Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,11 +1,8 @@
-﻿using PortfolioRest.Domain;
-using PortfolioRest.Interface;
-using System;
+﻿using _3_Domain.Class;
+using _3_Domain.Interface;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace PortfolioRest.Service
+namespace _2_Service.Service
 {
     public class PublicacaoService : IPublicacaoService
     {

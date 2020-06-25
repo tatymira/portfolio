@@ -1,11 +1,7 @@
-﻿using FluentNHibernate.Mapping;
-using PortfolioRest.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using _3_Domain.Class;
+using FluentNHibernate.Mapping;
 
-namespace PortfolioRest.Mappings
+namespace _4_Infra.Mappings
 {
     public class CategoriaMap : ClassMap<Categoria>
     {

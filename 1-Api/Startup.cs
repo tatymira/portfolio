@@ -1,22 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using _2_Service.Service;
+using _3_Domain.Interface;
+using _4_Infra.Mappings;
+using _4_Infra.Repository;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using PortfolioRest.Interface;
-using PortfolioRest.Mappings;
-using PortfolioRest.Repository;
-using PortfolioRest.Service;
 
 namespace _1_Api
 {

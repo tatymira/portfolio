@@ -1,12 +1,10 @@
-﻿using NHibernate;
-using PortfolioRest.Domain;
-using PortfolioRest.Interface;
-using System;
+﻿using _3_Domain.Class;
+using _3_Domain.Interface;
+using NHibernate;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
-namespace PortfolioRest.Repository
+namespace _4_Infra.Repository
 {
     public class PublicacaoRepository : IPublicacaoRepository
     {

@@ -1,10 +1,7 @@
-﻿using PortfolioRest.Domain;
-using System;
+﻿using _3_Domain.Class;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace PortfolioRest.Interface
+namespace _3_Domain.Interface
 {
     public interface IPublicacaoRepository
     {

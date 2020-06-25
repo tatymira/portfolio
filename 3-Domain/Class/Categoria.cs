@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 
-namespace PortfolioRest.Domain
+namespace _3_Domain.Class
 {
     public class Categoria
     {
