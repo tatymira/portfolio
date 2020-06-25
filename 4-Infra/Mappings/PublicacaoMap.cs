@@ -16,6 +16,7 @@ namespace PortfolioRest.Mappings
             Map(l => l.Titulo);
             Map(l => l.Introducao);
             Map(l => l.Conteudo);
+            References(l => l.Categoria);
             Table("Publicacao");
         }
     }
