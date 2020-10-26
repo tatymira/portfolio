@@ -7,13 +7,19 @@ using System.Web.Mvc;
 
 namespace _1_MVC.Controllers
 {
-    public class HomeController : Controller
+    public class PublicacaoController : Controller
     {
         public ActionResult Index()
         {
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Publicar(FormPublicacaoViewModel viewModel)
+        {
+
+            return View("Index");
+        }
 
     }
 }
